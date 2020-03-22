@@ -1,0 +1,77 @@
+body {
+  background-color: #474e5d;
+  font-family: 'helvetica', sans-serif;
+}
+
+nav {
+    background: #474e5d;
+    height: 100px;
+    width: 100%;
+	display: absolute;
+	position: absolute;
+	top: 0;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 2px;
+}
+
+nav ul li a {
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+	color: white;
+}
+
+#aboutme {
+	background-image: url("https://scontent-sin6-2.xx.fbcdn.net/v/t31.0-8/s960x960/903189_668186139868310_124773840_o.jpg?_nc_cat=108&_nc_sid=05277f&_nc_ohc=6ljDD47UxecAX9-hCfi&_nc_ht=scontent-sin6-2.xx&_nc_tp=7&oh=1738fc9ea8fc77c71e117f46ba04433a&oe=5E9CADFA"); 
+	background-size: cover;
+	background-position: bottom center;
+	height: 300px;
+	width: 100%;
+}
+
+#aboutme .content h1 {
+  border: 5px solid white;
+  position: relative;
+  top: 150px;
+  width: 60%;
+  margin: 0 auto;
+  color: white;
+  font-family: helvetica;
+  font-size: 36px;
+  background-color: #474e5d;
+  text-align: center;
+}
+
+.grid-container {
+	 display: grid;
+	 grid-template-columns: 20% auto;
+	 grid-gap: 10px;
+	 background-color: #474e5d;
+	 padding: 10px;
+	 text-align: center;
+}
+
+.grid-container > div {
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	padding: 20px 0;
+	font-size: 20px;
+}
+
+#contact {
+	clear: left;
+	padding: 5px;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.8);
+
+}
